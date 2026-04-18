@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Flame, ArrowRight } from "lucide-react";
-import logo from "@/assets/logo.png";
 import { useLang } from "@/lib/lang-context";
 
 const Embers = () => {
@@ -42,7 +41,7 @@ export const Hero = () => {
           className="flex justify-center mb-8"
         >
           <img
-            src={logo}
+            src="/arlindlogo.jpeg"
             alt="Katana Kebab & Burger Logo"
             className="h-44 sm:h-56 md:h-72 w-auto flame-flicker drop-shadow-[0_0_40px_hsl(var(--primary)/0.6)]"
             width={400}
