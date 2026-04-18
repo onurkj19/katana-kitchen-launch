@@ -1,0 +1,111 @@
+export type Lang = "de" | "en";
+
+export const translations = {
+  de: {
+    nav: { home: "Start", about: "Über Uns", menu: "Speisekarte", order: "Bestellen", gallery: "Galerie", contact: "Kontakt" },
+    hero: {
+      tagline: "Fresh. Bold. Legendary.",
+      subtitle: "Frisch geschnitten. Mit Feuer gegrillt. In Salzburg geliebt.",
+      orderNow: "Jetzt Bestellen",
+      viewMenu: "Speisekarte Ansehen",
+    },
+    about: {
+      title: "Geschmack mit Schärfe",
+      lead: "Bei Katana Kebab & Burger kombinieren wir traditionelle Kebab-Kunst mit moderner Burger-Kultur — direkt im Herzen von Salzburg.",
+      hours: "Öffnungszeiten",
+      hoursValue: "Montag – Samstag",
+      time: "08:00 – 21:00",
+      closed: "Sonntag geschlossen",
+      address: "Adresse",
+      contact: "Kontakt",
+      owner: "Inhaber",
+    },
+    menu: {
+      title: "Speisekarte",
+      subtitle: "Eine Auswahl unserer Klassiker — die vollständige Karte folgt in Kürze.",
+      notice: "Speisekarte wird aktualisiert",
+      categories: { kebab: "Kebab", burger: "Burger", sides: "Beilagen", drinks: "Getränke" },
+    },
+    order: {
+      title: "Online Bestellen",
+      subtitle: "Lieferung im Stadtgebiet Salzburg verfügbar.",
+      name: "Name", phone: "Telefon", address: "Adresse", details: "Bestelldetails", notes: "Anmerkungen",
+      submit: "Bestellung Senden",
+      delivery: "Lieferung im Raum Salzburg",
+      success: "Danke! Wir melden uns telefonisch bei dir.",
+    },
+    gallery: { title: "Galerie", soon: "Demnächst", caption: "Fotos folgen in Kürze — bleib dran!" },
+    contact: {
+      title: "Kontakt",
+      subtitle: "Fragen, Reservierung oder Catering? Schreib uns.",
+      name: "Name", email: "E-Mail", message: "Nachricht", send: "Nachricht Senden",
+      success: "Danke! Deine Nachricht wurde gesendet.",
+      findUs: "So findest du uns",
+    },
+    footer: {
+      tagline: "Fresh. Bold. Legendary.",
+      quickLinks: "Quick Links",
+      hours: "Öffnungszeiten",
+      rights: "Alle Rechte vorbehalten.",
+    },
+  },
+  en: {
+    nav: { home: "Home", about: "About", menu: "Menu", order: "Order", gallery: "Gallery", contact: "Contact" },
+    hero: {
+      tagline: "Fresh. Bold. Legendary.",
+      subtitle: "Freshly carved. Fire-grilled. Salzburg's favourite.",
+      orderNow: "Order Now",
+      viewMenu: "View Menu",
+    },
+    about: {
+      title: "Taste With Edge",
+      lead: "At Katana Kebab & Burger we blend traditional kebab craftsmanship with modern burger culture — right in the heart of Salzburg.",
+      hours: "Opening Hours",
+      hoursValue: "Monday – Saturday",
+      time: "08:00 – 21:00",
+      closed: "Closed on Sunday",
+      address: "Address",
+      contact: "Contact",
+      owner: "Owner",
+    },
+    menu: {
+      title: "Our Menu",
+      subtitle: "A taste of our classics — the full menu is coming soon.",
+      notice: "Menu will be updated",
+      categories: { kebab: "Kebab", burger: "Burger", sides: "Sides", drinks: "Drinks" },
+    },
+    order: {
+      title: "Order Online",
+      subtitle: "Delivery available across the Salzburg area.",
+      name: "Name", phone: "Phone", address: "Address", details: "Order details", notes: "Notes",
+      submit: "Send Order",
+      delivery: "Delivery available in Salzburg area",
+      success: "Thanks! We'll call you back to confirm.",
+    },
+    gallery: { title: "Gallery", soon: "Coming Soon", caption: "Photos coming soon — stay tuned!" },
+    contact: {
+      title: "Get In Touch",
+      subtitle: "Questions, reservations or catering? Drop us a line.",
+      name: "Name", email: "Email", message: "Message", send: "Send Message",
+      success: "Thanks! Your message has been sent.",
+      findUs: "Find Us",
+    },
+    footer: {
+      tagline: "Fresh. Bold. Legendary.",
+      quickLinks: "Quick Links",
+      hours: "Hours",
+      rights: "All rights reserved.",
+    },
+  },
+};
+
+export const BUSINESS = {
+  name: "Katana Kebab & Burger",
+  address: "Meierhofweg 28, 5020 Salzburg",
+  addressNote: "Beim Henelit Parkplatz",
+  owner: "Arlind Thaqi",
+  email: "office@kb-katana.at",
+  phone: "+43 677 62004588",
+  phoneRaw: "+4367762004588",
+  hours: "Mo–Sa 08:00–21:00",
+};
