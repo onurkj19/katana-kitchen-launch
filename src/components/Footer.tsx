@@ -13,7 +13,7 @@ export const Footer = () => {
         <div className="grid md:grid-cols-4 gap-10 mb-12">
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              <img src="/arlindlogo.png" alt="Katana Kebab & Burger" className="h-14 w-auto" width={56} height={56} loading="lazy" />
+              <img src="/arlindlogo.png" alt="Katana Kebab & Burger" className="h-20 w-auto" width={80} height={80} loading="lazy" />
               <div>
                 <p className="font-display text-2xl tracking-wider">KATANA</p>
                 <p className="text-[10px] text-primary font-bold tracking-[0.25em]">KEBAB & BURGER</p>

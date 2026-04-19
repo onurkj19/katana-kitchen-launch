@@ -38,9 +38,9 @@ export const Navbar = () => {
             <img
               src="/arlindlogo.png"
               alt="Katana Kebab & Burger Logo"
-              className="h-10 md:h-12 w-auto drop-shadow-[0_0_12px_hsl(var(--primary)/0.5)]"
-              width={48}
-              height={48}
+              className="h-14 md:h-16 w-auto drop-shadow-[0_0_12px_hsl(var(--primary)/0.5)]"
+              width={64}
+              height={64}
             />
             <div className="hidden sm:flex flex-col leading-none">
               <span className="font-display text-xl md:text-2xl tracking-wider">KATANA</span>

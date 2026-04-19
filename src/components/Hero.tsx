@@ -43,9 +43,9 @@ export const Hero = () => {
           <img
             src="/arlindlogo.png"
             alt="Katana Kebab & Burger Logo"
-            className="h-44 sm:h-56 md:h-72 w-auto flame-flicker drop-shadow-[0_0_40px_hsl(var(--primary)/0.6)]"
-            width={400}
-            height={400}
+            className="h-64 sm:h-80 md:h-96 lg:h-[28rem] w-auto flame-flicker drop-shadow-[0_0_60px_hsl(var(--primary)/0.7)]"
+            width={600}
+            height={600}
           />
         </motion.div>
 
