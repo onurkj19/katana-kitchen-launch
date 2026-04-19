@@ -41,7 +41,7 @@ export const Hero = () => {
           className="flex justify-center mb-8"
         >
           <img
-            src="/arlindlogo.jpeg"
+            src="/arlindlogo.png"
             alt="Katana Kebab & Burger Logo"
             className="h-44 sm:h-56 md:h-72 w-auto flame-flicker drop-shadow-[0_0_40px_hsl(var(--primary)/0.6)]"
             width={400}

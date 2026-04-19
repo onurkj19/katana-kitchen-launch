@@ -36,7 +36,7 @@ export const Navbar = () => {
         <nav className="container flex items-center justify-between h-16 md:h-20">
           <button onClick={() => go("home")} className="flex items-center gap-3 group">
             <img
-              src="/arlindlogo.jpeg"
+              src="/arlindlogo.png"
               alt="Katana Kebab & Burger Logo"
               className="h-10 md:h-12 w-auto drop-shadow-[0_0_12px_hsl(var(--primary)/0.5)]"
               width={48}
